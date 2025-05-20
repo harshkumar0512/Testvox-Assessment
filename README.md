@@ -40,3 +40,20 @@ See test report at ./test-output/extent.html.
 Note:
 For production, replace Thread.sleep() with WebDriverWait for robustness.
 This framework is extendable for more tests and page objects.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Part 2: Playwright + TypeScript
+
+tests/test-boxDemo.spec.ts
+package.json
+playwrite.config.ts
+
+Instructions:
+
+Install dependencies:
+      bash:npm install
+Run the test:
+     bash: npx playwright test
+     
+This setup uses Playwright's test runner, targets the https://demoqa.com/text-box form, fills it, submits, and asserts that the submitted values appear in the output as expected.
+----------------------------------------------------------------------------------------------------------------------------------------------------

@@ -57,3 +57,14 @@ Run the test:
      
 This setup uses Playwright's test runner, targets the https://demoqa.com/text-box form, fills it, submits, and asserts that the submitted values appear in the output as expected.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+Part 3: API Testing with RestAssured
+
+Instructions:
+
+Place the Java test file under src/test/java/api/ReqresApiTest.java.
+The pom.xml contains dependencies for RestAssured and JUnit 5.
+Run tests with:
+  sh   mvn test
+
+ Note: For API only APTTestFile is uploaded with POM inside a API folder.. 
+This setup covers GET, POST (with data-driven tests), and DELETE endpoints on ReqRes, validating status codes and response bodies.
